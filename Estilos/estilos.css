@@ -1,0 +1,24 @@
+/*ESTILOS DEL FUENTES*/
+@font-face {font-family: titulos; src: url('../Fuentes/titulos.ttf');}
+.titulos {font-family: titulos; font-size: 400%;}
+@font-face {font-family: textos_titulos; src: url('../Fuentes/textos.ttf');}
+.textos_titulos {font-family: textos_titulos; font-size: 200%;}
+@font-face {font-family: textos; src: url('../Fuentes/textos.ttf');}
+.textos {font-family: textos; font-size: 150%;}
+@font-face {font-family: subtitulos; src: url('../Fuentes/subtitulos.ttf');}
+.subtitulos {font-family: subtitulos; font-size: 150%;}
+
+/*ESTILOS DEL FONDO*/
+#fondos {background-color: rgb(223, 130, 130);}
+
+/*ESTILOS DEL MENÚ*/
+body{margin: 5; padding: 0; font: bold 14px Courier;}
+span {color: #000; padding: 0px 0px 0px 15px;}
+#menu {float: left; width: 100%;}
+#menu li {display: inline; margin: 0; padding: 0;}
+#menu a {float: left; display:block; margin: 1px; padding: 5px; text-decoration: none; color: #000; border-radius: 8px; background-color: #ff4141;}
+
+/*ESTILOS CENTRADOS*/
+.centrar {display:flex; flex-direction:column; justify-content: center; align-items: center;}
+
+.centrar_celdas {text-align: center;}

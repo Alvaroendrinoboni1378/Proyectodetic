@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset = "UTF-8">
+        <div><title>Formulario De Opinión</title></div>
+    </head>
+    <body>
+        <div>
+            <form>
+                <table border = "5">
+                    <tr>
+                        <td colspan="2">
+                            <b>Identificador de nuevo usuario</b><input type="text" name="usuario" size="50">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nombre:<input type="text"name= "nombre" size="50">
+                        </td>
+                        <td>
+                            Apellidos:<input type="text"name= "apellido" size="50">
+                        </td>
+                    </tr>
+                    </tr>  
+                    <tr>
+                        <td>Fecha de Nacimiento</td>
+                        <td>
+                            <label for="start">Fecha de Nacimiento</label>
+                            <input type="date" id="Empieza" name="Fecha"
+                            value="20/02/2024"
+                            min="01/01/1924" max="20/02/2024"
+                            requiered>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Correo Electrónico</td>
+                        <td>
+                            <label for="Gmail">Introduzca su Correo</label>
+                            <input type="url" id="Gmail" name="Gmail"
+                            place holder="tugmail@gmail.com"
+                            pattern="https" size = 30
+                            requiered>
+                            
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>Teléfono</td>
+                        <td>
+                            <label for="Phone">Introduzca su Teléfono</label>
+                            <input type="tel" id="phone" name="phone"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                            requiered>
+                        <small>Formato:123-456-7890</small>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Comentarios personales
+                        </td>
+                        <td>        
+                            <textarea name="Comentarios"  rows="20" cols="70"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset"  evalue="Restablecer">
+                        </td>
+                        <td>
+                            <input type="submit"  evalue="Enviar">
+                        </td>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button"  disabled value = "Modificar datos del usuario">
+                        </td>
+                    </tr>
+                    <tr class = "centrar_celdas">
+                        <td colspan ="2"><h4><a href="../index.html">Volver al inicio</a></h4></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
